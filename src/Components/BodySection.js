@@ -1,8 +1,8 @@
 import React from "react";
 import "./BodySection.css";
 import IMG1 from "../Components/images/accept the request.png";
-import IMG2 from "../Components/images/pickup client.png";
-import IMG3 from "../Components/images/drive to destination.png";
+import IMG2 from "../Components/images/Buy.jpg";
+import IMG3 from "../Components/images/Installment.jpg";
 
 function BodySection() {
   return (

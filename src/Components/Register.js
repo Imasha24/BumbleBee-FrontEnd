@@ -42,7 +42,7 @@ function Register() {
           className='container outer-wrapper'
           method='POST'
         >
-          <h3>Sign In - Customer</h3>
+          <h3>Sign Up - Customer</h3>
           <div className='mb-3'>
             <label>Email address</label>
             <input
