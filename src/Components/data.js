@@ -15,30 +15,26 @@ export const data = {
     earrings: [
         {
             id: 'e1',
-            name: 'Beaded Butterfly Hoops',
-            material: '14k Yellow Gold',
-            price: 90,
+            name: 'Check Check Wallet',
+            price: 3500.00,
             image: e1
         },
         {
             id: 'e2',
-            name: 'Silver Dome Hoops',
-            material: 'Sterling Silver',
-            price: 75,
+            name: 'Blue Silver Wallet',
+            price: 4500.00,
             image: e2
         },
         {
             id: 'e3',
-            name: 'Crush Hoops',
-            material: '14k Yellow Gold',
-            price: 70,
+            name: 'Red Bloosom ',
+            price: 5000.00,
             image: e3
         },
         {
             id: 'e4',
-            name: 'Pearl Trio Earrings',
-            material: '14k Yellow Gold, Pearl',
-            price: 100,
+            name: 'GUCCI Walet',
+            price: 7500.00,
             image: e4
         }
     ],
