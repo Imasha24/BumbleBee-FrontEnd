@@ -5,7 +5,7 @@ function Product(props) {
     <div className="product">
       {category.map((item) => (
         <div className="prod cell" key={item.id}>
-          <img src={item.image} alt="jewelry" className="prod img" />
+          <img src={item.image} alt="shop" className="prod img" />
           <div className="prod title">
             <div className="prod name">{item.name}</div>
             <div className="prod price">LKR {item.price}</div>

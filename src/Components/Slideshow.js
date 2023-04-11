@@ -33,7 +33,7 @@ const Slideshow = ({ slides }) => {
           >
             {index === current && (
               <div>
-                <img src={slide.image} alt="jewelry" className="photo" />
+                <img src={slide.image} alt="Shops" className="photo" />
                 <Link to={slide.link}>
                   <button className="slide-button">{slide.caption}</button>
                 </Link>

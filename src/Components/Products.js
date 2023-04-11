@@ -14,37 +14,37 @@ function Products(props) {
         <Link to="/all">
           <li className={category === "all" ? "active" : null}>All</li>
         </Link>
-        <Link to="/bracelets">
-          <li className={category === "bracelets" ? "active" : null}>
-            Mobile Phones
+        <Link to="/Dresses">
+          <li className={category === "Dresses" ? "active" : null}>
+            Dresses
           </li>
         </Link>
-        <Link to="/earrings">
-          <li className={category === "earrings" ? "active" : null}>Laptops</li>
+        <Link to="/Wallets">
+          <li className={category === "Wallets" ? "active" : null}>Laptops</li>2
         </Link>
-        <Link to="/necklaces">
-          <li className={category === "necklaces" ? "active" : null}>
-            Smart Watches
+        <Link to="/Shoes">
+          <li className={category === "Shoes" ? "active" : null}>
+            Shoes
           </li>
         </Link>
       </div>
-      {category === "bracelets" ? (
+      {category === "Dresses" ? (
         <div className="prod container">
-          <Product category={data.bracelets} addToBag={addToBag} />
+          <Product category={data.Dresses} addToBag={addToBag} />
         </div>
-      ) : category === "earrings" ? (
+      ) : category === "Wallets" ? (
         <div className="prod container">
-          <Product category={data.earrings} addToBag={addToBag} />
+          <Product category={data.Wallets} addToBag={addToBag} />
         </div>
-      ) : category === "necklaces" ? (
+      ) : category === "Shoes" ? (
         <div className="prod container">
-          <Product category={data.necklaces} addToBag={addToBag} />
+          <Product category={data.Shoes} addToBag={addToBag} />
         </div>
       ) : category === "all" ? (
         <div className="prod container">
-          <Product category={data.earrings} addToBag={addToBag} />
-          <Product category={data.bracelets} addToBag={addToBag} />
-          <Product category={data.necklaces} addToBag={addToBag} />
+          <Product category={data.Wallets} addToBag={addToBag} />
+          <Product category={data.Dresses} addToBag={addToBag} />
+          <Product category={data.Shoes} addToBag={addToBag} />
         </div>
       ) : null}
       <Footer />

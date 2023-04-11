@@ -12,7 +12,7 @@ import n3 from "./images/n3.jpg"
 import n4 from "./images/n4.jpg"
 
 export const data = {
-    earrings: [
+    Wallets: [
         {
             id: 'e1',
             name: 'Check Check Wallet',
@@ -38,63 +38,55 @@ export const data = {
             image: e4
         }
     ],
-    bracelets: [
+    Dresses: [
         {
             id: 'b1',
-            name: 'Chain Link Bracelet',
-            material: '14k Yellow Gold',
-            price: 90,
+            name: 'Red Velvet Long Frock',
+            price: 4500.00,
             image: b1
         },
         {
             id: 'b2',
-            name: 'Toggle Bracelet',
-            material: '14k Yellow Gold',
-            price: 100,
+            name: 'Long White Dress',
+            price: 7000.00,
             image: b2
         },
         {
             id: 'b3',
-            name: 'Disco Pearl Bracelet',
-            material: '14k Yellow Gold, Pearl',
-            price: 150,
+            name: 'Sunflower Yellow',
+            price: 5000.00,
             image: b3
         },
         {
             id: 'b4',
-            name: 'Pearl Spheres Bracelet',
-            material: '14k Yellow Gold, Pearl',
-            price: 120,
+            name: 'Sea Blue Long ',
+            price: 5500.00,
             image: b4
         }
     ],
-    necklaces: [
+    Shoes: [
         {
             id: 'n1',
-            name: 'Moon Necklace',
-            material: '14k Yellow Gold',
-            price: 80,
+            name: 'Black Night Air',
+            price: 7500.00,
             image: n1
         },
         {
             id: 'n2',
-            name: 'Emblem Necklace',
-            material: '14k Yellow Gold',
-            price: 80,
+            name: 'Boot Nike',
+            price: 10200.00,
             image: n2
         },
         {
             id: 'n3',
-            name: 'Blue Sphere Necklace',
-            material: 'Sterling Silver',
-            price: 70,
+            name: 'Pure White',
+            price: 8000.00,
             image: n3
         },
         {
             id: 'n4',
-            name: 'Stars Choker',
-            material: 'Gold Vermeil',
-            price: 55,
+            name: 'Gray White',
+            price: 9000.00,
             image: n4
         }
     ]

@@ -5,17 +5,17 @@ import slide3 from "./images/slide3.jpg";
 export const SlideshowImages = [
   {
     image: slide1,
-    caption: "SHOP BRACELETS",
-    link: "/bracelets",
+    caption: "SHOP DRESSES",
+    link: "/dresses",
   },
   {
     image: slide2,
-    caption: "SHOP EARRINGS",
-    link: "/earrings",
+    caption: "SHOP WALLETS",
+    link: "/wallets",
   },
   {
     image: slide3,
-    caption: "SHOP NECKLACES",
-    link: "/necklaces",
+    caption: "SHOP SHOES",
+    link: "/shoes",
   },
 ];

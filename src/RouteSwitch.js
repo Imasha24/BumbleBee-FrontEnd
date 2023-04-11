@@ -46,10 +46,10 @@ const RouteSwitch = () => {
       <Routes>
         <Route path='/' element={<Home bag={bag} bagCount={bagCount} />} />
         <Route
-          path='/bracelets'
+          path='/dresses'
           element={
             <Products
-              category='bracelets'
+              category='dresses'
               addToBag={addToBag}
               bag={bag}
               bagCount={bagCount}
@@ -57,10 +57,10 @@ const RouteSwitch = () => {
           }
         />
         <Route
-          path='/earrings'
+          path='/wallets'
           element={
             <Products
-              category='earrings'
+              category='wallets'
               addToBag={addToBag}
               bag={bag}
               bagCount={bagCount}
@@ -68,10 +68,10 @@ const RouteSwitch = () => {
           }
         />
         <Route
-          path='/necklaces'
+          path='/shoes'
           element={
             <Products
-              category='necklaces'
+              category='shoes'
               addToBag={addToBag}
               bag={bag}
               bagCount={bagCount}
