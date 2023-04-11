@@ -47,7 +47,7 @@ export const data = {
         },
         {
             id: 'b2',
-            name: 'Long White Dress',
+            name: 'Pure White Dress',
             price: 7000.00,
             image: b2
         },
